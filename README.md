@@ -13,10 +13,12 @@ This repository contains reusable **Claude Code Skills** -- modular instruction 
 | **Analyze** | `/analyze` | Run 4-Layer prompt analysis (Lexical, Syntactic, Discourse, Pragmatic) and recommend optimal chains/agents/skills |
 | **Claude Strategy** | `/claude-strategy` | Generate a project-optimized Claude Code usage strategy document mapping chains, agents, and skills to project needs |
 | **Commit Push** | `/commit-push` | Stage, commit (Conventional Commits format), and push changes to origin |
+| **Design Extractor** | `/design-extractor` | Extract a complete design system from any website URL using Dembrandt engine, outputting colors, typography, spacing, shadows, and components as a browsable HTML document |
 | **Memory Save** | `/memory-save` | Save session work to `~/.claude/memory/` with deduplication and `YYMM_SEQ_keyword.md` naming |
 | **PR Review** | `/pr-review` | Review a PR or git diff, producing a structured report in `.pr-reviews/` |
 | **Project Review** | `/project-review` | Full project review covering architecture, structure, and maintainability |
 | **README Gen** | `/readme-gen` | Analyze a project folder and auto-generate README.md (English) and README_KO.md (Korean) |
+| **Supanova Forge** | `/supanova-forge` | Unified premium landing page design engine generating $150k-agency-quality Korean landing pages (CREATE/REDESIGN modes) with VIBE preset system, anti-generic rules, and WCAG 2.1 AA accessibility |
 | **Translation Specialist** | `/translation-specialist` | Context-aware professional translation with 4-Layer linguistic analysis, supporting 6 domains and 4 translation strategies |
 | **Vibe Dev** | `/vibe-dev` | Document-driven AI pair programming methodology across 4 phases: Investigate, Define, Develop, Report |
 
@@ -32,6 +34,11 @@ Skills/
 │       └── strategy-template.md   # 12-section strategy template
 ├── commit-push/
 │   └── SKILL.md               # Git commit & push automation
+├── design-extractor/
+│   ├── SKILL.md               # URL → design system HTML extraction
+│   ├── README.md              # English documentation
+│   ├── README_KO.md           # Korean documentation
+│   └── LICENSE                # MIT License
 ├── memory-save/
 │   └── SKILL.md               # Session memory persistence
 ├── pr-review/
@@ -40,6 +47,13 @@ Skills/
 │   └── SKILL.md               # Full project audit workflow
 ├── readme-gen/
 │   └── SKILL.md               # README auto-generation
+├── supanova-forge/
+│   ├── SKILL.md               # Premium landing page design engine
+│   ├── README.md              # English documentation
+│   ├── README_KR.md           # Korean documentation
+│   ├── archive/               # Original 4 skills (taste/redesign/soft/output)
+│   ├── examples/              # Example outputs
+│   └── research/              # Design research & references
 ├── translation-specialist/
 │   ├── SKILL.md               # Professional translation engine
 │   ├── reference.md           # Classification systems & keyword dictionaries

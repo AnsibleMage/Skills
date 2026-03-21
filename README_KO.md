@@ -13,10 +13,12 @@
 | **Analyze** | `/analyze` | 4-Layer 프롬프트 분석(어휘, 통사, 담화, 화용)을 실행하고 최적의 체인/에이전트/스킬 추천 |
 | **Claude Strategy** | `/claude-strategy` | 프로젝트에 최적화된 Claude Code 사용전략 문서 자동 생성 |
 | **Commit Push** | `/commit-push` | Conventional Commits 형식으로 스테이징, 커밋, 푸시 자동화 |
+| **Design Extractor** | `/design-extractor` | Dembrandt 엔진으로 웹사이트 URL에서 디자인 시스템(색상, 타이포, 간격, 그림자, 컴포넌트)을 추출하여 브라우저용 HTML 문서로 출력 |
 | **Memory Save** | `/memory-save` | 세션 작업 내용을 `~/.claude/memory/`에 중복 방지 및 `YYMM_SEQ_keyword.md` 명명 규칙으로 저장 |
 | **PR Review** | `/pr-review` | PR 또는 git diff를 리뷰하고 `.pr-reviews/` 폴더에 구조화된 리포트 생성 |
 | **Project Review** | `/project-review` | 아키텍처, 구조, 유지보수성을 다루는 프로젝트 전체 리뷰 |
 | **README Gen** | `/readme-gen` | 프로젝트 폴더를 분석하여 README.md(영어) 및 README_KO.md(한국어) 자동 생성 |
+| **Supanova Forge** | `/supanova-forge` | $150k 에이전시 수준의 한국어 랜딩페이지 생성/리디자인 엔진. VIBE 프리셋, Anti-Generic 규칙, WCAG 2.1 AA 접근성 내장 |
 | **Translation Specialist** | `/translation-specialist` | 4-Layer 언어학적 분석 기반 맥락 인식 전문 번역, 6개 도메인 및 4가지 번역 전략 지원 |
 | **Vibe Dev** | `/vibe-dev` | 문서 주도 AI 페어 프로그래밍 방법론 (조사, 정의, 개발, 보고의 4단계) |
 
@@ -32,6 +34,11 @@ Skills/
 │       └── strategy-template.md   # 12섹션 전략 템플릿
 ├── commit-push/
 │   └── SKILL.md               # Git 커밋 & 푸시 자동화
+├── design-extractor/
+│   ├── SKILL.md               # URL → 디자인 시스템 HTML 추출
+│   ├── README.md              # 영문 문서
+│   ├── README_KO.md           # 한국어 문서
+│   └── LICENSE                # MIT 라이선스
 ├── memory-save/
 │   └── SKILL.md               # 세션 메모리 영속화
 ├── pr-review/
@@ -40,6 +47,13 @@ Skills/
 │   └── SKILL.md               # 프로젝트 전체 감사 워크플로우
 ├── readme-gen/
 │   └── SKILL.md               # README 자동 생성
+├── supanova-forge/
+│   ├── SKILL.md               # 프리미엄 랜딩페이지 디자인 엔진
+│   ├── README.md              # 영문 문서
+│   ├── README_KR.md           # 한국어 문서
+│   ├── archive/               # 원본 4개 스킬 (taste/redesign/soft/output)
+│   ├── examples/              # 출력 예시
+│   └── research/              # 디자인 리서치 및 참고자료
 ├── translation-specialist/
 │   ├── SKILL.md               # 전문 번역 엔진
 │   ├── reference.md           # 분류 체계 및 키워드 사전
